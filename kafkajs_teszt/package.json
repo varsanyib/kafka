@@ -1,5 +1,18 @@
 {
   "dependencies": {
     "kafkajs": "^2.2.4"
-  }
+  },
+  "name": "kafkajs_teszt",
+  "version": "1.0.0",
+  "description": "kafka teszteles",
+  "main": "consumer.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Teszt\"",
+    "depinstall": "npm install kafkajs",
+    "rx": "node consumer.js",
+    "tx": "node producer.js"
+  },
+  "author": "varsanyib",
+  "license": "ISC"
 }
